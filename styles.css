@@ -1,0 +1,148 @@
+* {
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4e7d6; /* Light brown background */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main, .section {
+    width: 50vw;
+    box-sizing: border-box;
+    background-color: white;
+    border-top: 12px solid #8b5e3c; /* Brown color */
+    border-radius: 10px;
+    margin: 20px;
+    margin-bottom: 0;
+    padding: 20px;
+    padding-left: 30px;
+    font-size: 16px; /* Increased font size */
+}
+
+.main {
+    height: auto;
+}
+
+.main h1 {
+    font-size: 28px; /* Increased font size */
+}
+
+.section {
+    background-color: white;
+    height: auto;
+    padding: 20px;
+    border-top: none;
+}
+
+input[type="text"], input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #8b5e3c; /* Brown color */
+    width: 90%;
+    padding: 10px; /* Increased padding */
+}
+
+select {
+    border: none;
+    border-bottom: 1px solid #8b5e3c; /* Brown color */
+    width: 90%;
+    padding: 10px; /* Increased padding */
+}
+
+.submit {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+button {
+    margin: 20px;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding: 12px 24px; /* Increased padding */
+    border-radius: 5px; /* Increased border radius */
+    background-color: #8b5e3c; /* Brown color */
+    border: none;
+    color: white;
+    font-size: 16px; /* Increased font size */
+}
+
+button:hover {
+    background-color: #6f3d28; /* Darker brown color */
+    transition: ease-in 200ms;
+}
+
+.rule, .policy {
+    width: 50vw;
+    font-size: 16px; /* Increased font size */
+    color: grey;
+}
+
+.policy {
+    font-size: 17px; /* Increased font size */
+}
+
+.policy a {
+    text-decoration: none;
+    color: grey;
+    text-decoration: underline;
+}
+
+img {
+    margin-top: 20px;
+    height: 250px; /* Increased height */
+    width: 50vw;
+    object-fit: fill;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.branding {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    img, .main, .section, .submit, .rule, .policy, .branding {
+        width: 90vw;
+    }
+    
+    img {
+        height: 175px; /* Adjusted height */
+    }
+    
+    .main {
+        height: auto;
+        font-size: 14px; /* Adjusted font size */
+    }
+    
+    .section {
+        height: auto;
+        font-size: 14px; /* Adjusted font size */
+    }
+    
+    .main h1 {
+        font-size: 22px; /* Adjusted font size */
+    }
+    
+    .main p, h4 {
+        margin: 10px 0px;
+    }
+    
+    input[type="text"], input[type="email"] {
+        padding: 10px; /* Adjusted padding */
+    }
+    
+    button {
+        padding: 12px 26px; /* Adjusted padding */
+        border-radius: 5px;
+    }
+}

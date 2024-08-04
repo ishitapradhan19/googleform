@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campus Lifestyle and Student Well-being Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <form id="surveyForm" action="/submit" method="POST">
+        <img src="https://www.dropbox.com/scl/fi/tmdzfs1l8xqfeqthjsujy/image-500x200.jpg?rlkey=o8pajua237hp980r2bdd34w7e&st=1s9x3s6g&dl=1" alt="Placeholder Image">
+        <div class="main">
+            <h1>Campus Lifestyle and Student Well-being Survey</h1>
+            <hr />
+            <p>Welcome! This survey aims to gather insights into your campus lifestyle and well-being. Your responses will help us understand and improve student life at our university. Thank you for participating!</p>
+            <h4 style="color: red;">* Required</h4>
+        </div>
+        <div class="section">
+            <h3>Full Name <span style="color: red;">*</span></h3>
+            <input type="text" name="fullName" required />
+        </div>
+        <div class="section">
+            <h3>Email Address <span style="color: red;">*</span></h3>
+            <input type="email" name="email" required />
+        </div>
+        <div class="section">
+            <h3>Year of Study <span style="color: red;">*</span></h3>
+            <select name="yearOfStudy" required>
+                <option value="" disabled selected>Select your year</option>
+                <option value="First Year">First Year</option>
+                <option value="Second Year">Second Year</option>
+                <option value="Third Year">Third Year</option>
+                <option value="Fourth Year">Fourth Year</option>
+                <option value="Fifth Year or Above">Fifth Year or Above</option>
+            </select>
+        </div>
+        <div class="section">
+            <h3>How many hours do you spend studying per week on average? <span style="color: red;">*</span></h3>
+            <select name="studyHours" required>
+                <option value="" disabled selected>Select hours</option>
+                <option value="Less than 10 hours">Less than 10 hours</option>
+                <option value="10-20 hours">10-20 hours</option>
+                <option value="21-30 hours">21-30 hours</option>
+                <option value="31-40 hours">31-40 hours</option>
+                <option value="More than 40 hours">More than 40 hours</option>
+            </select>
+        </div>
+        <div class="section">
+            <h3>How many hours of sleep do you get on a typical night? <span style="color: red;">*</span></h3>
+            <select name="sleepHours" required>
+                <option value="" disabled selected>Select hours</option>
+                <option value="Less than 5 hours">Less than 5 hours</option>
+                <option value="5-6 hours">5-6 hours</option>
+                <option value="7-8 hours">7-8 hours</option>
+                <option value="9-10 hours">9-10 hours</option>
+                <option value="More than 10 hours">More than 10 hours</option>
+            </select>
+        </div>
+        <div class="submit">
+            <button type="submit">Submit</button>
+        </div>
+        <p class="rule">Never submit passwords through this form</p>
+        <p class="policy">
+            This content is created for educational purposes.
+            <a href="#">Report Abuse</a>. <a href="#">Terms of Service</a>.
+            <a href="#">Privacy Policy</a>.
+        </p>
+        <h1 class="branding" style="color: grey; font-weight: 550; width: 50vw;">Survey Forms</h1>
+        <div id="confirmationMessage" style="display:none;">
+            <h3>Thank you for your submission!</h3>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
