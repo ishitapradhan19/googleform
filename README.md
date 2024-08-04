@@ -55,4 +55,4 @@ Ensure you have npm installed, then run: npm install
    This project is licensed under the **MIT License**.
 
 ### Contact ###
-    For any questions or issues, please contact **ishita.pradhan3010@gmail.com** .
+    For any questions or issues, please contact ishita.pradhan3010@gmail.com.
