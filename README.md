@@ -44,15 +44,15 @@ Ensure you have npm installed, then run: npm install
 
 5. **Run the Server**
 
-   Start the server using: *node server.js*
+   Start the server using: **node server.js**
 
-   The server will be accessible at *http://localhost:5000*.
+   The server will be accessible at **http://localhost:5000**.
 
 ### Contributing ###
     If you want to contribute to this project, please fork the repository and submit a pull request.
 
 ### License ###
-   This project is licensed under the *MIT License*.
+   This project is licensed under the **MIT License**.
 
 ### Contact ###
-    For any questions or issues, please contact *ishita.pradhan3010@gmail.com* .
+    For any questions or issues, please contact **ishita.pradhan3010@gmail.com** .
